@@ -1,0 +1,164 @@
+/* RTL (Right-to-Left) Support Styles */
+
+/* Base RTL body direction */
+html[dir="rtl"] body {
+    direction: rtl;
+}
+
+/* Container and grid layouts - RTL direction */
+html[dir="rtl"] .topbar .container {
+    direction: rtl;
+}
+
+html[dir="rtl"] .hero-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .feature-pair {
+    direction: rtl;
+}
+
+html[dir="rtl"] .contact-layout {
+    direction: rtl;
+}
+
+html[dir="rtl"] .auth-layout {
+    direction: rtl;
+}
+
+html[dir="rtl"] .blog-layout {
+    direction: rtl;
+}
+
+html[dir="rtl"] .overview-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .app-showcase-grid,
+html[dir="rtl"] .about-hero-grid,
+html[dir="rtl"] .feature-hero-grid,
+html[dir="rtl"] .contact-hero-grid,
+html[dir="rtl"] .blog-hero-grid,
+html[dir="rtl"] .waitlist-layout,
+html[dir="rtl"] .founder-layout,
+html[dir="rtl"] .store-layout,
+html[dir="rtl"] .roadmap-grid,
+html[dir="rtl"] .page-hero-layout {
+    direction: rtl;
+}
+
+html[dir="rtl"] .footer-bottom {
+    direction: rtl;
+}
+
+/* Dropdown menu positioning */
+html[dir="rtl"] .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+/* Comparison table text alignment */
+html[dir="rtl"] .comparison-table th {
+    text-align: right;
+}
+
+html[dir="rtl"] .comparison-table td {
+    text-align: right;
+}
+
+/* Form field text alignment */
+html[dir="rtl"] .field input {
+    text-align: right;
+}
+
+html[dir="rtl"] .field textarea {
+    text-align: right;
+}
+
+/* Sidebar and navigation text alignment */
+html[dir="rtl"] .sidebar-card {
+    text-align: right;
+}
+
+html[dir="rtl"] .nav-link {
+    text-align: right;
+}
+
+html[dir="rtl"] .dropdown-menu a {
+    text-align: right;
+}
+
+html[dir="rtl"] .section-head,
+html[dir="rtl"] .hero-card,
+html[dir="rtl"] .feature-card,
+html[dir="rtl"] .benefit-card,
+html[dir="rtl"] .timeline-card,
+html[dir="rtl"] .achievement-card,
+html[dir="rtl"] .stat-card,
+html[dir="rtl"] .support-card,
+html[dir="rtl"] .testimonial-card,
+html[dir="rtl"] .faq-item,
+html[dir="rtl"] .countdown-card,
+html[dir="rtl"] .app-showcase-copy,
+html[dir="rtl"] .contact-hero-copy,
+html[dir="rtl"] .blog-hero-copy,
+html[dir="rtl"] .feature-hero-copy,
+html[dir="rtl"] .waitlist-copy,
+html[dir="rtl"] .article-content,
+html[dir="rtl"] .sidebar-card,
+html[dir="rtl"] .page-hero,
+html[dir="rtl"] .auth-card {
+    text-align: right;
+}
+
+/* Flexbox direction reversal for various action elements */
+html[dir="rtl"] .slider-controls {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .header-actions {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .cta-actions {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .hero-actions {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .app-badges {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .social-list {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .share-row {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .showcase-brand-row,
+html[dir="rtl"] .showcase-mini-nav,
+html[dir="rtl"] .showcase-metrics,
+html[dir="rtl"] .hero-stat-list {
+    direction: rtl;
+}
+
+html[dir="rtl"] .floating-badge.one {
+    left: auto;
+    right: -2%;
+}
+
+html[dir="rtl"] .floating-badge.two {
+    right: auto;
+    left: -6%;
+}
+
+html[dir="rtl"] .showcase-float-card {
+    left: auto;
+    right: clamp(18px, 8vw, 120px);
+}
+

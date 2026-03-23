@@ -1,0 +1,22 @@
+/* Dark Mode Styles */
+html[data-theme="dark"] {
+    --bg: #0c1512;
+    --bg-elevated: #111d19;
+    --text: #ecf4ef;
+    --text-soft: #aac0b6;
+    --primary: #6fa8ff;
+    --primary-strong: #9bc4ff;
+    --accent: #3f7cff;
+    --border: rgba(236, 244, 239, .12);
+    --shadow: 0 24px 60px rgba(0, 0, 0, .32);
+}
+
+html[data-theme="dark"] .topbar {
+    background: rgba(12, 21, 18, .84);
+}
+
+html[data-theme="dark"] .logo-chip,
+html[data-theme="dark"] .integration-logos li {
+    background: rgba(255, 255, 255, .04);
+}
+
