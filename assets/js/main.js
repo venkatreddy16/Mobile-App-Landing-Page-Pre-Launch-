@@ -12,7 +12,7 @@ const themeToggle = document.querySelector("[data-theme-toggle]");
 const rtlToggle = document.querySelector("[data-rtl-toggle]");
 const headerActions = document.querySelector(".header-actions");
 const loginButton = document.querySelector(".header-actions .login-btn");
-const indexMobileActions = document.querySelector("[data-index-mobile-actions]");
+const mobileHeaderActionsSlot = document.querySelector("[data-index-mobile-actions], [data-mobile-header-actions]");
 const yearNode = document.querySelector("[data-year]");
 const monthlyToggle = document.querySelector("[data-plan='monthly']");
 const yearlyToggle = document.querySelector("[data-plan='yearly']");
@@ -90,52 +90,30 @@ function initMenu() {
 }
 
 function initMobileHeaderLayout() {
-    if (!navMenu || !loginButton) return;
+    if (!navMenu || !loginButton || !headerActions || !themeToggle || !rtlToggle) return;
 
     const mobileQuery = window.matchMedia("(max-width: 1023.98px)");
+    const isLoginPage = document.body.classList.contains("login-page");
 
     const syncMobileLogin = () => {
-        const existingItem = navMenu.querySelector(".mobile-login-item");
-        const isHomePage = document.body.classList.contains("page-home-1");
+        if (isLoginPage || !mobileHeaderActionsSlot) return;
 
         if (mobileQuery.matches) {
-            if (isHomePage && indexMobileActions && headerActions && themeToggle && rtlToggle) {
-                let mobileLogin = existingItem?.querySelector(".mobile-menu-login");
+            let mobileLogin = mobileHeaderActionsSlot.querySelector(".mobile-menu-login");
 
-                if (!mobileLogin) {
-                    mobileLogin = indexMobileActions.querySelector(".mobile-menu-login");
-                }
-
-                if (!mobileLogin) {
-                    mobileLogin = loginButton.cloneNode(true);
-                    mobileLogin.classList.add("mobile-menu-login");
-                }
-
-                existingItem?.remove();
-                indexMobileActions.replaceChildren(themeToggle, rtlToggle, mobileLogin);
-                navMenu.appendChild(indexMobileActions);
-                return;
-            }
-
-            if (!existingItem) {
-                const mobileLoginItem = document.createElement("li");
-                const mobileLogin = loginButton.cloneNode(true);
-
-                mobileLoginItem.className = "mobile-login-item";
+            if (!mobileLogin) {
+                mobileLogin = loginButton.cloneNode(true);
                 mobileLogin.classList.add("mobile-menu-login");
-                mobileLoginItem.appendChild(mobileLogin);
-                navMenu.appendChild(mobileLoginItem);
             }
+
+            mobileHeaderActionsSlot.replaceChildren(themeToggle, rtlToggle, mobileLogin);
+            navMenu.appendChild(mobileHeaderActionsSlot);
             return;
         }
 
-        existingItem?.remove();
-
-        if (isHomePage && indexMobileActions && headerActions && themeToggle && rtlToggle) {
-            headerActions.insertBefore(themeToggle, loginButton);
-            headerActions.insertBefore(rtlToggle, loginButton);
-            indexMobileActions.replaceChildren();
-        }
+        headerActions.insertBefore(themeToggle, loginButton);
+        headerActions.insertBefore(rtlToggle, loginButton);
+        mobileHeaderActionsSlot.replaceChildren();
     };
 
     syncMobileLogin();
@@ -455,40 +433,7 @@ function initTopbarScroll() {
 
 // Initialize loading placeholders
 function initLoadingPlaceholders() {
-    if (!document.querySelector("[data-loading]")) {
-        const target = document.querySelector("form[data-validate], .slider-track, .comparison-table-wrap, .pricing-toggle");
-
-        if (target && target.parentElement) {
-            const loadingGrid = document.createElement("div");
-            loadingGrid.className = "loading-grid";
-            loadingGrid.dataset.loading = "";
-            loadingGrid.setAttribute("aria-hidden", "true");
-            loadingGrid.innerHTML = `
-                <div class="loading-card">
-                    <div class="skeleton-line medium"></div>
-                    <div class="skeleton-line short"></div>
-                    <div class="skeleton-line"></div>
-                </div>
-                <div class="loading-card">
-                    <div class="skeleton-line short"></div>
-                    <div class="skeleton-line medium"></div>
-                    <div class="skeleton-line"></div>
-                </div>
-                <div class="loading-card">
-                    <div class="skeleton-line"></div>
-                    <div class="skeleton-line short"></div>
-                    <div class="skeleton-line medium"></div>
-                </div>
-            `;
-            target.parentElement.insertBefore(loadingGrid, target);
-        }
-    }
-
-    window.setTimeout(() => {
-        document.querySelectorAll("[data-loading]").forEach((el) => {
-            el.hidden = true;
-        });
-    }, 900);
+    return;
 }
 
 // Initialize everything on DOM ready
