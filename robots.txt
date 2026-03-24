@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://launchpad.app/sitemap.xml
+Sitemap: https://venkatreddy16.github.io/Mobile-App-Landing-Page-Pre-Launch-/sitemap.xml
+
