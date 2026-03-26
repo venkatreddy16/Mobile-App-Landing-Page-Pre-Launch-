@@ -34,10 +34,11 @@ function setTheme(theme) {
     root.dataset.theme = theme;
     localStorage.setItem("launchpad-theme", theme);
 
-    if (themeToggle) {
+    document.querySelectorAll("[data-theme-toggle]").forEach((toggleButton) => {
         const nextTheme = theme === "dark" ? "light" : "dark";
-        themeToggle.setAttribute("aria-label", `Switch to ${nextTheme} mode`);
-    }
+        toggleButton.setAttribute("aria-label", `Switch to ${nextTheme} mode`);
+        toggleButton.setAttribute("title", `Switch to ${nextTheme} mode`);
+    });
 }
 
 // Initialize theme from localStorage or system preference
@@ -51,21 +52,17 @@ function setDirection(dir) {
     root.setAttribute("dir", dir);
     localStorage.setItem("launchpad-dir", dir);
 
-    if (rtlToggle) {
+    document.querySelectorAll("[data-rtl-toggle]").forEach((toggleButton) => {
         const nextDir = dir === "rtl" ? "ltr" : "rtl";
-        let label = rtlToggle.querySelector(".rtl-toggle-label");
+        const label = toggleButton.querySelector(".rtl-toggle-label");
 
-        if (!label) {
-            rtlToggle.replaceChildren();
-            label = document.createElement("span");
-            label.className = "rtl-toggle-label";
-            rtlToggle.appendChild(label);
+        if (label) {
+            label.textContent = nextDir.toUpperCase();
         }
 
-        label.textContent = nextDir.toUpperCase();
-        rtlToggle.setAttribute("aria-label", `Switch to ${nextDir.toUpperCase()} layout`);
-        rtlToggle.setAttribute("title", `Switch to ${nextDir.toUpperCase()} layout`);
-    }
+        toggleButton.setAttribute("aria-label", `Switch to ${nextDir.toUpperCase()} layout`);
+        toggleButton.setAttribute("title", `Switch to ${nextDir.toUpperCase()} layout`);
+    });
 }
 
 // Initialize direction from localStorage
@@ -94,11 +91,44 @@ function initMobileHeaderLayout() {
 
     const mobileQuery = window.matchMedia("(max-width: 1023.98px)");
     const isLoginPage = document.body.classList.contains("login-page");
+    const isHomePage = document.body.classList.contains("page-home-1");
+
+    const bindThemeButton = (button) => {
+        if (!button || button.dataset.themeBound === "true") return;
+        button.dataset.themeBound = "true";
+        button.addEventListener("click", () => {
+            setTheme(root.dataset.theme === "dark" ? "light" : "dark");
+        });
+    };
+
+    const bindRtlButton = (button) => {
+        if (!button || button.dataset.rtlBound === "true") return;
+        button.dataset.rtlBound = "true";
+        button.addEventListener("click", () => {
+            setDirection(root.getAttribute("dir") === "rtl" ? "ltr" : "rtl");
+        });
+    };
+
+    bindThemeButton(themeToggle);
+    bindRtlButton(rtlToggle);
 
     const syncMobileLogin = () => {
         if (isLoginPage || !mobileHeaderActionsSlot) return;
 
         if (mobileQuery.matches) {
+            if (isHomePage) {
+                const mobileThemeToggle = themeToggle.cloneNode(true);
+                const mobileRtlToggle = rtlToggle.cloneNode(true);
+                const mobileLogin = loginButton.cloneNode(true);
+
+                mobileLogin.classList.add("mobile-menu-login");
+                bindThemeButton(mobileThemeToggle);
+                bindRtlButton(mobileRtlToggle);
+                mobileHeaderActionsSlot.replaceChildren(mobileThemeToggle, mobileRtlToggle, mobileLogin);
+                navMenu.appendChild(mobileHeaderActionsSlot);
+                return;
+            }
+
             let mobileLogin = mobileHeaderActionsSlot.querySelector(".mobile-menu-login");
 
             if (!mobileLogin) {
@@ -134,20 +164,24 @@ function initDropdown() {
 
 // Initialize theme toggle button
 function initThemeToggle() {
-    if (themeToggle) {
-        themeToggle.addEventListener("click", () => {
+    document.querySelectorAll("[data-theme-toggle]").forEach((toggleButton) => {
+        if (toggleButton.dataset.themeBound === "true") return;
+        toggleButton.dataset.themeBound = "true";
+        toggleButton.addEventListener("click", () => {
             setTheme(root.dataset.theme === "dark" ? "light" : "dark");
         });
-    }
+    });
 }
 
 // Initialize RTL toggle button
 function initRtlToggle() {
-    if (rtlToggle) {
-        rtlToggle.addEventListener("click", () => {
+    document.querySelectorAll("[data-rtl-toggle]").forEach((toggleButton) => {
+        if (toggleButton.dataset.rtlBound === "true") return;
+        toggleButton.dataset.rtlBound = "true";
+        toggleButton.addEventListener("click", () => {
             setDirection(root.getAttribute("dir") === "rtl" ? "ltr" : "rtl");
         });
-    }
+    });
 }
 
 // Initialize countdown timer
