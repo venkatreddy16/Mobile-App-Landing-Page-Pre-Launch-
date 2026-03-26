@@ -327,6 +327,9 @@ function initForms() {
     document.querySelectorAll("form[data-validate]").forEach((form) => {
         form.setAttribute("novalidate", "");
         const statusEl = form.querySelector("[data-form-status]");
+        const formBehavior = form.dataset.formBehavior || "inline";
+        const mailtoRecipient = form.dataset.mailto || "";
+        const mailtoSubject = form.dataset.mailtoSubject || `Website message from ${document.title}`;
 
         if (statusEl) {
             statusEl.setAttribute("role", "status");
@@ -349,12 +352,24 @@ function initForms() {
         form.addEventListener("submit", (e) => {
             e.preventDefault();
             const isValid = Array.from(form.querySelectorAll("input, textarea")).every(validateField);
-            
+
             if (isValid) {
+                if (formBehavior === "mailto" && mailtoRecipient) {
+                    const messageBody = Array.from(form.querySelectorAll("input, textarea"))
+                        .map((input) => `${input.name || input.id || "field"}: ${input.value.trim()}`)
+                        .join("\n");
+
+                    window.location.href = `mailto:${encodeURIComponent(mailtoRecipient)}?subject=${encodeURIComponent(mailtoSubject)}&body=${encodeURIComponent(messageBody)}`;
+                }
+
                 if (statusEl) {
                     statusEl.classList.remove("is-error");
                     statusEl.classList.add("is-success");
-                    statusEl.textContent = "Thanks. Your details were captured successfully.";
+                    statusEl.textContent = formBehavior === "mailto"
+                        ? "Your email app is opening so you can send this message."
+                        : formBehavior === "demo-auth"
+                            ? "Demo mode only. Connect this form to your auth backend to enable login."
+                            : "Thanks. Your details were captured successfully.";
                 }
                 form.reset();
                 form.querySelectorAll("input, textarea").forEach((input) => {
@@ -390,6 +405,43 @@ function initAuthPanels() {
     });
 
     setAuthPanel(window.location.hash === "#signup" ? "signup" : "login");
+}
+
+function initFaqAccordions() {
+    document.querySelectorAll(".faq-list").forEach((faqList, listIndex) => {
+        const items = Array.from(faqList.querySelectorAll(".faq-item"));
+        if (!items.length) return;
+
+        items.forEach((item, itemIndex) => {
+            const summary = item.querySelector("summary");
+            const panel = Array.from(item.children).find((child) => child.tagName !== "SUMMARY");
+            if (!summary) return;
+
+            const summaryId = setElementId(summary, `faq-summary-${listIndex + 1}-${itemIndex + 1}`);
+
+            if (panel) {
+                const panelId = setElementId(panel, `faq-panel-${listIndex + 1}-${itemIndex + 1}`);
+                summary.setAttribute("aria-controls", panelId);
+                panel.setAttribute("role", "region");
+                panel.setAttribute("aria-labelledby", summaryId);
+            }
+
+            summary.setAttribute("aria-expanded", String(item.open));
+
+            item.addEventListener("toggle", () => {
+                summary.setAttribute("aria-expanded", String(item.open));
+
+                if (!item.open) return;
+
+                items.forEach((otherItem) => {
+                    if (otherItem !== item) {
+                        otherItem.open = false;
+                        otherItem.querySelector("summary")?.setAttribute("aria-expanded", "false");
+                    }
+                });
+            });
+        });
+    });
 }
 
 // Initialize reveal animations
@@ -453,6 +505,7 @@ initSliderButtons();
 initPlanToggle();
 initForms();
 initAuthPanels();
+initFaqAccordions();
 initReveal();
 initPageMotion();
 initTopbarScroll();

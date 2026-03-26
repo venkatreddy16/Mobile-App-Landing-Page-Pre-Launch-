@@ -20,3 +20,108 @@ html[data-theme="dark"] .integration-logos li {
     background: rgba(255, 255, 255, .04);
 }
 
+html[data-theme="dark"] .pricing-toggle,
+html[data-theme="dark"] .page-home-1 .waitlist-form-card,
+html[data-theme="dark"] .page-home-1 .store-chip,
+html[data-theme="dark"] .page-home-1 .roadmap-item,
+html[data-theme="dark"] .page-home-1 .beta-card,
+html[data-theme="dark"] .slider-controls .secondary-btn {
+    background: rgba(17, 29, 25, .86);
+    border-color: rgba(236, 244, 239, .14);
+}
+
+html[data-theme="dark"] .toggle-chip {
+    background: rgba(255, 255, 255, .04);
+    border-color: rgba(236, 244, 239, .14);
+    color: var(--text-soft);
+}
+
+html[data-theme="dark"] .toggle-chip.active {
+    border-color: transparent;
+    color: #fff;
+}
+
+html[data-theme="dark"] .page-home-1 .store-chip {
+    color: var(--text);
+    opacity: 1;
+}
+
+html[data-theme="dark"] .slider-controls .secondary-btn {
+    color: var(--text);
+}
+
+html[data-theme="dark"] .hero-banner-home .countdown-card h3,
+html[data-theme="dark"] .hero-banner-home .countdown-grid strong {
+    color: var(--text);
+}
+
+html[data-theme="dark"] .hero-banner-home .countdown-grid span {
+    color: var(--text-soft);
+}
+
+html[data-theme="dark"] .page-home-1 .waitlist-trust {
+    background: rgba(111, 168, 255, .12);
+    color: var(--text);
+}
+
+html[data-theme="dark"] .page-home-1 .roadmap-item h3,
+html[data-theme="dark"] .page-home-1 .beta-card h3 {
+    color: var(--text);
+}
+
+html[data-theme="dark"] .page-home-1 .roadmap-item p,
+html[data-theme="dark"] .page-home-1 .beta-card p {
+    color: var(--text-soft);
+}
+
+html[data-theme="dark"] .page-home-1 .roadmap-item strong {
+    background: rgba(111, 168, 255, .14);
+    color: var(--primary-strong);
+}
+
+html[data-theme="dark"] .page-about .market-need-shell {
+    background: rgba(17, 29, 25, .38);
+}
+
+html[data-theme="dark"] .page-about .market-need-shell::before {
+    background: linear-gradient(135deg, rgba(255, 255, 255, .04), transparent 58%);
+}
+
+html[data-theme="dark"] .page-about .market-need-card {
+    background: rgba(17, 29, 25, .86);
+    border-color: rgba(236, 244, 239, .14);
+}
+
+html[data-theme="dark"] .page-about .market-need-card h3 {
+    color: var(--text);
+}
+
+html[data-theme="dark"] .page-about .market-need-card p,
+html[data-theme="dark"] .page-about .market-need-intro {
+    color: var(--text-soft);
+}
+
+html[data-theme="dark"] .field.has-error input,
+html[data-theme="dark"] .field.has-error textarea {
+    background: rgba(199, 81, 70, .12);
+    border-color: rgba(255, 161, 150, .6);
+    box-shadow: 0 0 0 4px rgba(199, 81, 70, .18);
+}
+
+html[data-theme="dark"] .error-message {
+    background: rgba(199, 81, 70, .16);
+    color: #ffb8b0;
+}
+
+html[data-theme="dark"] .error-message::before {
+    background: rgba(199, 81, 70, .32);
+}
+
+html[data-theme="dark"] .form-status.is-success {
+    color: #7dd3a8;
+}
+
+html[data-theme="dark"] .form-status.is-error {
+    color: #ffb8b0;
+}
+

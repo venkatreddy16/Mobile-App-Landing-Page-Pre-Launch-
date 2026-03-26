@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaunchPad Home 1 | Pre-Launch App Landing</title>
     <meta name="description" content="LaunchPad Home 1 helps mobile teams collect early access signups with premium visuals, waitlist forms, proof points, and a clear pre-launch conversion path.">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"LaunchPad Home 1 | Pre-Launch App Landing","description":"LaunchPad Home 1 helps mobile teams collect early access signups with premium visuals, waitlist forms, proof points, and a clear pre-launch conversion path.","url":"https://venkatreddy16.github.io/Mobile-App-Landing-Page-Pre-Launch-/index.html","isPartOf":{"@type":"WebSite","name":"LaunchPad","url":"https://launchpad.app"},"about":{"@type":"Organization","name":"LaunchPad","url":"https://launchpad.app","logo":"https://venkatreddy16.github.io/Mobile-App-Landing-Page-Pre-Launch-/assets/images/logo-mark.svg","email":"hello@launchpad.app","telephone":"+1-415-555-0134","address":{"@type":"PostalAddress","streetAddress":"220 Market Street","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94103","addressCountry":"US"}}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"LaunchPad Home 1 | Pre-Launch App Landing","description":"LaunchPad Home 1 helps mobile teams collect early access signups with premium visuals, waitlist forms, proof points, and a clear pre-launch conversion path.","url":"https://launchpad.app/pages/index.html","isPartOf":{"@type":"WebSite","name":"LaunchPad","url":"https://launchpad.app"},"about":{"@type":"Organization","name":"LaunchPad","url":"https://launchpad.app","logo":"https://launchpad.app/assets/images/logo-mark.svg","email":"hello@launchpad.app","telephone":"+1-415-555-0134","address":{"@type":"PostalAddress","streetAddress":"220 Market Street","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94103","addressCountry":"US"}}}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -100,7 +100,7 @@
                             <span class="eyebrow">Launch your app with impact</span>
                             <h1 id="home-banner-title">Make your first screen feel premium before the app even goes live.</h1>
                             <p id="home-banner-copy" class="lede">A cleaner Home-1 banner with one bold message, one product visual, and one clear next step for early visitors.</p>
-                            <div class="showcase-metrics">
+                            <div class="showcase-metrics fade-in">
                                 <div class="showcase-metric">
                                     <strong>12k+</strong>
                                     <span>early signups captured</span>
@@ -110,7 +110,7 @@
                                     <span>beta user rating</span>
                                 </div>
                             </div>
-                            <div class="countdown-card" data-countdown="2026-09-15T09:00:00">
+                            <div class="countdown-card fade-in" data-countdown="2026-09-15T09:00:00">
                                 <h3>Public launch countdown</h3>
                                 <div class="countdown-grid">
                                     <div>
@@ -131,8 +131,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="hero-actions">
-                                <a class="secondary-btn" href="./pricing.html">Start Free Trial</a>
+                            <div class="hero-actions fade-in">
+                                <a class="secondary-btn" href="#waitlist">Join Waitlist</a>
                                 <a class="ghost-btn" href="./features.html">Explore Features</a>
                             </div>
                         </div>
@@ -151,13 +151,13 @@
                         <span class="eyebrow">Pre-launch mobile dashboard</span>
                         <h2>Capture waitlist demand before your app even ships.</h2>
                         <p class="lede">LaunchPad gives startup teams a polished landing page with animated mockups, feature proof, and email capture flows that convert early visitors into launch-ready users.</p>
-                        <div class="hero-actions">
-                            <a class="primary-btn" href="./pricing.html">Start Free Trial</a>
-                            <a class="secondary-btn" href="./home-2.html">Preview Home-2</a>
+                        <div class="hero-actions fade-in">
+                            <a class="primary-btn" href="#waitlist">Join Waitlist</a>
+                            <a class="secondary-btn" href="./contact.html">Request Demo</a>
                         </div>
-                        <div class="app-badges">
-                            <a class="secondary-btn" href="./login.html">App Store</a>
-                            <a class="secondary-btn" href="./login.html">Play Store</a>
+                        <div class="app-badges fade-in">
+                            <a class="secondary-btn" href="#waitlist">Get Launch Updates</a>
+                            <a class="secondary-btn" href="./pricing.html">View Pricing</a>
                         </div>
                     </div>
                     <div class="hero-visual fade-in">
@@ -168,7 +168,7 @@
                 </div>
             </section>
 
-            <section>
+            <section id="waitlist">
                 <div class="container hero-card waitlist-shell reveal-up">
                     <div class="waitlist-layout">
                         <div class="waitlist-copy">
@@ -179,7 +179,7 @@
                         </div>
                         <div class="waitlist-form-card fade-in">
                             <h3>Reserve your spot</h3>
-                            <form class="auth-form" data-validate novalidate>
+                            <form class="auth-form" data-validate data-form-behavior="mailto" data-mailto="hello@launchpad.app" data-mailto-subject="LaunchPad waitlist request" novalidate>
                                 <div class="field">
                                     <label for="waitlist-name">Name</label>
                                     <input id="waitlist-name" name="name" type="text" required placeholder="Your name">
@@ -252,27 +252,27 @@
                         <span class="eyebrow">Screens slider</span>
                         <h2>Preview the app before launch day.</h2>
                     </div>
-                    <div class="slider-track" id="screens-slider">
-                        <article class="screenshot-card">
+                    <div class="slider-track fade-in" id="screens-slider">
+                        <article class="screenshot-card fade-in">
                             <img src="./assets/images/screen-1.webp" alt="Campaign summary screen">
                         </article>
-                        <article class="screenshot-card">
+                        <article class="screenshot-card fade-in">
                             <img src="./assets/images/screen-2.webp" alt="Audience insights screen">
                         </article>
-                        <article class="screenshot-card">
+                        <article class="screenshot-card fade-in">
                             <img src="./assets/images/screen-3.webp" alt="Workflow automation screen">
                         </article>
-                        <article class="screenshot-card">
+                        <article class="screenshot-card fade-in">
                             <img src="./assets/images/screen-4.webp" alt="Retention tracking screen">
                         </article>
-                        <article class="screenshot-card">
+                        <article class="screenshot-card fade-in">
                             <img src="./assets/images/mobile-dashboard.webp" alt="Mobile dashboard product screen">
                         </article>
-                        <article class="screenshot-card">
+                        <article class="screenshot-card fade-in">
                             <img src="./assets/images/review-video.webp" alt="Hero product preview screen">
                         </article>
                     </div>
-                    <div class="slider-controls" data-slider-controls="screens-slider">
+                    <div class="slider-controls fade-in" data-slider-controls="screens-slider">
                         <button class="secondary-btn" data-slide="prev">Previous</button>
                         <button class="secondary-btn" data-slide="next">Next</button>
                     </div>
@@ -361,7 +361,7 @@
                     </div>
                     <div class="beta-footer reveal-up">
                         <p>We roll out access in waves so we can learn quickly, improve the experience, and reward the earliest supporters first.</p>
-                        <a class="primary-btn" href="./login.html">Join Beta Access</a>
+                        <a class="primary-btn" href="#waitlist">Reserve Your Spot</a>
                     </div>
                 </div>
             </section>
@@ -397,17 +397,17 @@
                     </div>
                     <div class="testimonials-grid">
                         <article class="testimonial-card fade-in">
-                            <p>"We doubled early signups in one week because the page finally felt launch-ready."</p>
+                            <p>"We stopped losing warm traffic once the page explained the product clearly. Waitlist conversion moved up within the first week."</p>
                             <strong>Ana Rivera</strong>
                             <span>Growth Lead, Orbital Health</span>
                         </article>
                         <article class="testimonial-card fade-in">
-                            <p>"The app mockups and countdown added the urgency we were missing."</p>
+                            <p>"The screenshots, rollout timing, and cleaner CTA path gave our beta campaign the structure it was missing."</p>
                             <strong>James Ford</strong>
                             <span>Founder, PulseFit</span>
                         </article>
                         <article class="testimonial-card fade-in">
-                            <p>"Dark mode, RTL, and mobile responsiveness were already solved."</p>
+                            <p>"We could reuse the same launch story across mobile, dark mode, and RTL without rebuilding the whole experience."</p>
                             <strong>Noor Hassan</strong>
                             <span>Product Manager, RouteIQ</span>
                         </article>
@@ -418,11 +418,11 @@
             <section>
                 <div class="container hero-card founder-shell reveal-up">
                     <div class="founder-layout">
-                        <div class="founder-note">
+                        <div class="founder-note fade-in">
                             <span class="eyebrow">Why we built this</span>
                             <h2>Launches deserve more than a rushed page and a weak first impression.</h2>
-                            <p>We created LaunchPad because too many strong products reached the market with landing pages that looked unfinished, generic, or unclear. Early traction often gets decided before the app is even downloaded.</p>
-                            <p>Our goal is to help founders ship a sharper story before release day, with a page that feels intentional, trustworthy, and ready to convert interest into an actual pre-launch community.</p>
+                            <p>We kept seeing product teams spend months refining the app, then ship a launch page in a weekend. The result was usually the same: unclear messaging, weak proof, and too much friction around the signup step.</p>
+                            <p>LaunchPad was shaped to solve that gap with a cleaner structure, stronger proof sections, and a more focused path from first visit to waitlist signup or demo request.</p>
                             <div class="founder-meta">
                                 <strong>Arun Dev</strong>
                                 <span>Founder, LaunchPad</span>
@@ -430,8 +430,8 @@
                         </div>
                         <div class="founder-note fade-in">
                             <div class="founder-avatar">AD</div>
-                            <h3>Built for product teams that care about the first click.</h3>
-                            <p>This section gives your homepage a human voice, which is especially useful before public release when trust matters as much as features.</p>
+                            <h3>Built for teams that know the landing page shapes the launch.</h3>
+                            <p>The product story should feel as polished as the app itself, especially when visitors are deciding whether your launch is worth following before release day.</p>
                         </div>
                     </div>
                 </div>
@@ -440,25 +440,25 @@
             <section>
                 <div class="container">
                     <div class="section-head reveal-up">
-                        <span class="eyebrow">Loading states</span>
-                        <h2>Professional placeholders for dynamic launch content.</h2>
+                        <span class="eyebrow">Launch updates</span>
+                        <h2>Everything a first-time visitor needs before joining.</h2>
                     </div>
-                    <div class="loading-grid" data-loading aria-hidden="true">
-                        <div class="loading-card">
-                            <div class="skeleton-line medium">“Your world, one tap away.”</div>
-                            <div class="skeleton-line short">“Smart apps for smarter living.”</div>
-                            <div class="skeleton-line"></div>
-                        </div>
-                        <div class="loading-card">
-                            <div class="skeleton-line medium">“Designed for speed. Built for simplicity.”</div>
-                            <div class="skeleton-line"></div>
-                            <div class="skeleton-line short">“Start journey today.”</div>
-                        </div>
-                        <div class="loading-card">
-                            <div class="skeleton-line short">“Join the next generation of users.”</div>
-                            <div class="skeleton-line medium"></div>
-                            <div class="skeleton-line">“Get started in seconds.”</div>
-                        </div>
+                    <div class="feature-grid">
+                        <article class="feature-card fade-in">
+                            <div class="icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 6v6l4 2"></path><circle cx="12" cy="12" r="9"></circle></svg></div>
+                            <h3>Clear launch timing</h3>
+                            <p>Visitors can see exactly when access opens and what stage the rollout is in.</p>
+                        </article>
+                        <article class="feature-card fade-in">
+                            <div class="icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"></path></svg></div>
+                            <h3>Proof before signup</h3>
+                            <p>Metrics, screenshots, and testimonials appear before the main conversion ask.</p>
+                        </article>
+                        <article class="feature-card fade-in">
+                            <div class="icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"></path><path d="m4 8 8 5 8-5"></path></svg></div>
+                            <h3>Simple follow-up</h3>
+                            <p>Early supporters can join the waitlist or request a demo without hunting for the next step.</p>
+                        </article>
                     </div>
                 </div>
             </section>
@@ -488,8 +488,8 @@
                         <p>Join product teams using LaunchPad to create focused pre-launch experiences that convert.</p>
                     </div>
                     <div class="cta-actions">
-                        <a class="primary-btn" href="./login.html">Download Now</a>
-                        <a class="ghost-btn" href="./contact.html">Talk to Sales</a>
+                        <a class="primary-btn" href="#waitlist">Join Waitlist</a>
+                        <a class="ghost-btn" href="./contact.html">Request Demo</a>
                     </div>
                 </div>
             </section>
@@ -530,18 +530,18 @@
                         <ul>
                             <li><a href="./blog.html">Blog</a></li>
                             <li><a href="./coming-soon.html">Coming Soon</a></li>
-                            <li><a href="./404.html">404 Page</a></li>
-                            <li><a href="../README.md">README</a></li>
-                            <li><a href="../sitemap.xml">Sitemap</a></li>
+                            <li><a href="./home-2.html">Home-2</a></li>
+                            <li><a href="./reviews.html">Reviews</a></li>
+                            <li><a href="./contact.html">Support</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="footer-bottom">
                     <span>&copy; <span data-year></span> LaunchPad. All rights reserved.</span>
                     <div class="social-list">
-                        <a href="./contact.html">LinkedIn</a>
-                        <a href="./contact.html">Instagram</a>
-                        <a href="./contact.html">X</a>
+                        <a href="mailto:hello@launchpad.app">Email</a>
+                        <a href="tel:+14155550134">Call</a>
+                        <a href="./contact.html">Support</a>
                     </div>
                 </div>
             </div>
@@ -551,5 +551,4 @@
 </body>
 
 </html>
-
 
