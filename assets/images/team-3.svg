@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="360" viewBox="0 0 320 360" fill="none"><rect width="320" height="360" rx="32" fill="#EEF3FF"/><circle cx="160" cy="126" r="72" fill="#FFD7C0"/><rect x="88" y="220" width="144" height="96" rx="32" fill="#263B57"/><rect x="122" y="90" width="76" height="92" rx="30" fill="#18283D"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" fill="none">
+  <rect width="720" height="720" rx="48" fill="#EEF4FF"/>
+  <circle cx="360" cy="286" r="118" fill="#D8E6FF"/>
+  <path d="M286 282c0-40 32-70 74-70 44 0 76 30 76 70 0 46-32 80-76 80-42 0-74-34-74-80Z" fill="#2F6FED"/>
+  <path d="M236 556c18-76 78-118 124-118 50 0 112 42 124 118" fill="#A4C1FF"/>
+  <rect x="188" y="518" width="344" height="118" rx="32" fill="#163C82"/>
+  <text x="250" y="588" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Growth & Ops</text>
+</svg>

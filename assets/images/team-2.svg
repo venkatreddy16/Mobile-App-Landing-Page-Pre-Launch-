@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="360" viewBox="0 0 320 360" fill="none"><rect width="320" height="360" rx="32" fill="#FFF1E9"/><circle cx="160" cy="126" r="72" fill="#FFDFC8"/><rect x="88" y="220" width="144" height="96" rx="32" fill="#FF9159"/><rect x="122" y="90" width="76" height="92" rx="30" fill="#5A3A2B"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" fill="none">
+  <rect width="720" height="720" rx="48" fill="#EEF4FF"/>
+  <circle cx="360" cy="286" r="118" fill="#D8E6FF"/>
+  <path d="M288 286c0-42 30-74 72-74 44 0 76 32 76 74 0 42-30 76-76 76-42 0-72-34-72-76Z" fill="#1F55C7"/>
+  <path d="M232 556c20-78 80-118 128-118 46 0 108 42 128 118" fill="#7DAAF8"/>
+  <rect x="188" y="518" width="344" height="118" rx="32" fill="#1F55C7"/>
+  <text x="248" y="588" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Creative Direction</text>
+</svg>

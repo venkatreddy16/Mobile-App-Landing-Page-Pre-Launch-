@@ -441,6 +441,24 @@ function initAuthPanels() {
     setAuthPanel(window.location.hash === "#signup" ? "signup" : "login");
 }
 
+function initPasswordToggles() {
+    document.querySelectorAll("[data-password-toggle]").forEach((toggleButton) => {
+        if (toggleButton.dataset.passwordBound === "true") return;
+        toggleButton.dataset.passwordBound = "true";
+
+        const inputId = toggleButton.getAttribute("aria-controls");
+        const input = inputId ? document.getElementById(inputId) : toggleButton.parentElement?.querySelector("input");
+        if (!input) return;
+
+        toggleButton.addEventListener("click", () => {
+            const isVisible = input.type === "text";
+            input.type = isVisible ? "password" : "text";
+            toggleButton.classList.toggle("is-visible", !isVisible);
+            toggleButton.setAttribute("aria-label", isVisible ? "Show password" : "Hide password");
+        });
+    });
+}
+
 function initFaqAccordions() {
     document.querySelectorAll(".faq-list").forEach((faqList, listIndex) => {
         const items = Array.from(faqList.querySelectorAll(".faq-item"));
@@ -539,6 +557,7 @@ initSliderButtons();
 initPlanToggle();
 initForms();
 initAuthPanels();
+initPasswordToggles();
 initFaqAccordions();
 initReveal();
 initPageMotion();

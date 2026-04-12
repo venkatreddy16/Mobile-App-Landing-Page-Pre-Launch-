@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="620" viewBox="0 0 320 620" fill="none"><rect width="320" height="620" rx="40" fill="#163027"/><rect x="24" y="34" width="272" height="552" rx="30" fill="#fff"/><rect x="46" y="74" width="228" height="118" rx="26" fill="#1F8F63"/><rect x="46" y="222" width="228" height="258" rx="28" fill="#FFF6F0"/><circle cx="102" cy="316" r="40" fill="#FF9159" fill-opacity=".25"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" fill="none">
+  <rect width="900" height="1200" rx="48" fill="#F3F8FF"/>
+  <rect x="116" y="92" width="668" height="1016" rx="42" fill="#102242"/>
+  <rect x="154" y="154" width="592" height="922" rx="32" fill="#F8FBFF"/>
+  <text x="206" y="228" fill="#163C82" font-family="Arial, sans-serif" font-size="34" font-weight="700">Retention tracking</text>
+  <rect x="206" y="264" width="192" height="20" rx="10" fill="#D8E6FF"/>
+  <rect x="206" y="330" width="488" height="236" rx="30" fill="#1F55C7"/>
+  <path d="M246 500c46-50 86-76 120-76 42 0 68 60 112 60 28 0 56-16 88-48 24-22 48-48 88-66" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="246" cy="500" r="10" fill="#fff"/>
+  <circle cx="654" cy="370" r="10" fill="#fff"/>
+  <rect x="206" y="602" width="488" height="300" rx="30" fill="#F8FBFF" stroke="#E2ECFB" stroke-width="3"/>
+  <text x="246" y="654" fill="#163C82" font-family="Arial, sans-serif" font-size="24" font-weight="700">Weekly cohorts</text>
+  <rect x="246" y="710" width="388" height="24" rx="12" fill="#D8E6FF"/>
+  <rect x="246" y="754" width="312" height="24" rx="12" fill="#BCD4FF"/>
+  <rect x="246" y="798" width="258" height="24" rx="12" fill="#A0C1FF"/>
+</svg>

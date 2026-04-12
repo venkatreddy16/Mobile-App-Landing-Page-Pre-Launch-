@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" fill="none"><rect width="720" height="500" rx="40" fill="#101926"/><rect x="40" y="52" width="640" height="396" rx="28" fill="url(#a)"/><circle cx="360" cy="250" r="68" fill="white" fill-opacity=".92"/><path d="M387 250L341 278V222L387 250Z" fill="#1F8F63"/><defs><linearGradient id="a" x1="40" y1="52" x2="680" y2="448" gradientUnits="userSpaceOnUse"><stop stop-color="#1F8F63"/><stop offset=".55" stop-color="#263B57"/><stop offset="1" stop-color="#FF9159"/></linearGradient></defs></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" rx="48" fill="#F4F8FF"/>
+  <rect x="94" y="110" width="1012" height="680" rx="40" fill="#fff" stroke="#D8E4FA" stroke-width="4"/>
+  <rect x="138" y="154" width="664" height="592" rx="30" fill="#0F2140"/>
+  <rect x="176" y="196" width="588" height="370" rx="24" fill="#1F55C7"/>
+  <circle cx="470" cy="382" r="72" fill="#fff" fill-opacity=".18"/>
+  <path d="M448 340l66 42-66 42v-84Z" fill="#fff"/>
+  <rect x="176" y="602" width="208" height="22" rx="11" fill="#D8E6FF"/>
+  <rect x="176" y="640" width="288" height="22" rx="11" fill="#AFCBFF"/>
+  <rect x="838" y="154" width="224" height="174" rx="28" fill="#F8FBFF" stroke="#E2ECFB" stroke-width="3"/>
+  <text x="870" y="206" fill="#163C82" font-family="Arial, sans-serif" font-size="22" font-weight="700">Scene 01</text>
+  <rect x="870" y="232" width="132" height="18" rx="9" fill="#D8E6FF"/>
+  <rect x="870" y="274" width="160" height="18" rx="9" fill="#E8F0FF"/>
+  <rect x="838" y="354" width="224" height="174" rx="28" fill="#2F6FED"/>
+  <text x="870" y="406" fill="#fff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Scene 02</text>
+  <rect x="870" y="432" width="112" height="18" rx="9" fill="#D8E6FF"/>
+  <rect x="870" y="474" width="148" height="18" rx="9" fill="#BFD4FF"/>
+  <rect x="838" y="554" width="224" height="192" rx="28" fill="#F8FBFF" stroke="#E2ECFB" stroke-width="3"/>
+  <text x="870" y="606" fill="#163C82" font-family="Arial, sans-serif" font-size="22" font-weight="700">CTA close</text>
+  <rect x="870" y="632" width="124" height="18" rx="9" fill="#D8E6FF"/>
+  <rect x="870" y="674" width="168" height="18" rx="9" fill="#E8F0FF"/>
+</svg>

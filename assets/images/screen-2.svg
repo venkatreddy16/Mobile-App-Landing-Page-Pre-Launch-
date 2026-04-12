@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="620" viewBox="0 0 320 620" fill="none"><rect width="320" height="620" rx="40" fill="#163027"/><rect x="24" y="34" width="272" height="552" rx="30" fill="#fff"/><rect x="46" y="74" width="228" height="96" rx="26" fill="#FFF0E8"/><circle cx="106" cy="260" r="48" fill="#1F8F63" fill-opacity=".2"/><rect x="46" y="336" width="228" height="170" rx="24" fill="#F4F7F1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" fill="none">
+  <rect width="900" height="1200" rx="48" fill="#F3F8FF"/>
+  <rect x="116" y="92" width="668" height="1016" rx="42" fill="#102242"/>
+  <rect x="154" y="154" width="592" height="922" rx="32" fill="#F8FBFF"/>
+  <text x="206" y="228" fill="#163C82" font-family="Arial, sans-serif" font-size="34" font-weight="700">Audience insights</text>
+  <rect x="206" y="264" width="202" height="20" rx="10" fill="#D8E6FF"/>
+  <rect x="206" y="330" width="488" height="236" rx="30" fill="#F8FBFF" stroke="#E2ECFB" stroke-width="3"/>
+  <circle cx="340" cy="448" r="88" fill="#2F6FED"/>
+  <circle cx="340" cy="448" r="46" fill="#F8FBFF"/>
+  <rect x="472" y="380" width="162" height="18" rx="9" fill="#C6DAFF"/>
+  <rect x="472" y="420" width="130" height="18" rx="9" fill="#E8F0FF"/>
+  <rect x="472" y="460" width="150" height="18" rx="9" fill="#D8E6FF"/>
+  <rect x="206" y="612" width="488" height="320" rx="30" fill="#1F55C7"/>
+  <text x="246" y="672" fill="#fff" font-family="Arial, sans-serif" font-size="26" font-weight="700">High-intent segments</text>
+  <rect x="246" y="722" width="94" height="144" rx="18" fill="#D8E6FF"/>
+  <rect x="360" y="680" width="94" height="186" rx="18" fill="#AFCBFF"/>
+  <rect x="474" y="746" width="94" height="120" rx="18" fill="#7DAAF8"/>
+  <rect x="588" y="704" width="66" height="162" rx="18" fill="#fff"/>
+</svg>

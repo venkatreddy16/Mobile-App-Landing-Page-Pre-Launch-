@@ -2,18 +2,29 @@
 
 ## Pages
 
-- `index.html`: Home Version 1 with hero, benefits, screenshots, process, testimonials, CTA, and loading states.
-- `home-2.html`: Home Version 2 with video preview, comparison, numbers, integrations, and featured-on logos.
-- `about.html`: Company story, mission, timeline, team, achievements, and press.
-- `features.html`: Feature overview, advanced options, performance, screenshots, and CTA.
-- `blog.html`: Blog listing with categories, subscription, and insight sections.
-- `blog-details.html`: Article detail layout with social sharing, author box, and related posts.
-- `pricing.html`: Plan cards, monthly/yearly toggle, FAQ, and support sections.
-- `reviews.html`: Testimonials, ratings, video review section, and case studies.
-- `contact.html`: Contact form, map, support information, FAQ, and response promise.
-- `login.html`: Login, signup, OAuth, and security sections.
+- `index.html`: Primary homepage with hero banner, waitlist CTA, metrics, product storytelling, social proof, and launch-focused conversion sections.
+- `home-2.html`: Alternate homepage with a richer story-first layout, comparison content, integrations, and supporting CTA sections.
+- `about.html`: Brand story, mission, timeline, team, achievements, and press.
+- `features.html`: Feature breakdown, product capabilities, visual highlights, and feature CTA content.
+- `blog.html`: Blog listing layout with cards, categories, and content discovery sections.
+- `blog-details.html`: Single article page with long-form content, related context, and editorial layout elements.
+- `pricing.html`: Plan comparison, pricing toggle, FAQ content, and plan CTA sections.
+- `reviews.html`: Testimonials, customer proof, review cards, and supporting trust sections.
+- `contact.html`: Contact form, support information, location visuals, and response-oriented CTA content.
+- `coming-soon.html`: Countdown-focused launch holding page.
+- `login.html`: Auth-style login and signup interface used as a static demo page.
+- `404.html`: Not found page with return paths back into the site.
 
-## Notes
+## Shared Assets
 
-- Root-level HTML files are the deployed pages.
-- Duplicate `pages/` HTML files were removed so the project now has a single page source at the root.
+- `assets/css/style.css`: Main layout, components, responsive design, hero treatments, cards, buttons, and animation styles.
+- `assets/css/dark-mode.css`: Dark theme variable overrides and dark-surface adjustments.
+- `assets/css/rtl.css`: Direction-specific layout overrides for RTL mode.
+- `assets/js/main.js`: Theme switching, RTL toggle, mobile navigation, dropdowns, sliders, countdowns, form validation, FAQ accordion behavior, and reveal animations.
+
+## Deployment Notes
+
+- Source HTML files live in `pages/`.
+- GitHub Pages deployment is handled by `.github/workflows/deploy-pages.yml`.
+- The workflow publishes the `pages/` HTML files, a generated root redirect `index.html`, a generated root `404.html`, `assets/`, `robots.txt`, and `sitemap.xml`.
+- `pages/live_index_snapshot.html` is a local reference file and is not included in the deployment artifact.

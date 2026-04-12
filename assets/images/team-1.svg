@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="360" viewBox="0 0 320 360" fill="none"><rect width="320" height="360" rx="32" fill="#EAF5EF"/><circle cx="160" cy="126" r="72" fill="#FFD7C0"/><rect x="88" y="220" width="144" height="96" rx="32" fill="#1F8F63"/><rect x="122" y="92" width="76" height="92" rx="30" fill="#163027"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" fill="none">
+  <rect width="720" height="720" rx="48" fill="#EEF4FF"/>
+  <circle cx="360" cy="286" r="118" fill="#D8E6FF"/>
+  <path d="M286 278c0-40 32-72 74-72 44 0 74 30 74 72 0 44-32 78-74 78s-74-34-74-78Z" fill="#163C82"/>
+  <path d="M230 556c22-76 84-118 130-118 44 0 108 42 130 118" fill="#2F6FED"/>
+  <rect x="188" y="518" width="344" height="118" rx="32" fill="#2F6FED"/>
+  <text x="238" y="588" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Product Strategy</text>
+</svg>

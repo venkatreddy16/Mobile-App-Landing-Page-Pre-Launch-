@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" rx="48" fill="#F4F8FF"/>
+  <rect x="120" y="112" width="960" height="676" rx="38" fill="#fff" stroke="#DAE5FB" stroke-width="4"/>
+  <rect x="160" y="154" width="280" height="592" rx="30" fill="#F8FBFF" stroke="#E3ECFD" stroke-width="3"/>
+  <text x="200" y="214" fill="#163C82" font-family="Arial, sans-serif" font-size="28" font-weight="700">Briefing</text>
+  <rect x="200" y="244" width="146" height="18" rx="9" fill="#D7E5FF"/>
+  <rect x="200" y="300" width="200" height="164" rx="26" fill="#2F6FED"/>
+  <text x="228" y="350" fill="#fff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Weekly growth</text>
+  <text x="228" y="410" fill="#fff" font-family="Arial, sans-serif" font-size="54" font-weight="700">+18%</text>
+  <rect x="200" y="504" width="200" height="18" rx="9" fill="#D7E5FF"/>
+  <rect x="200" y="542" width="170" height="18" rx="9" fill="#E8F0FF"/>
+  <rect x="486" y="154" width="554" height="264" rx="30" fill="#F8FBFF" stroke="#E3ECFD" stroke-width="3"/>
+  <text x="526" y="206" fill="#163C82" font-family="Arial, sans-serif" font-size="28" font-weight="700">Performance overview</text>
+  <path d="M530 334c48-20 92-28 140-10 42 16 76 16 118-8 30-16 60-38 96-42 52-6 96 16 126 50" stroke="#2F6FED" stroke-width="10" stroke-linecap="round"/>
+  <path d="M530 358c42-6 78 0 112 22 28 18 58 24 98 18 42-6 92-28 158-72" stroke="#9ABFFF" stroke-width="10" stroke-linecap="round"/>
+  <rect x="486" y="446" width="258" height="300" rx="30" fill="#1F55C7"/>
+  <text x="526" y="500" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Top segment</text>
+  <text x="526" y="574" fill="#fff" font-family="Arial, sans-serif" font-size="62" font-weight="700">Founders</text>
+  <text x="526" y="620" fill="#D7E5FF" font-family="Arial, sans-serif" font-size="20">Highest reply rate from email sequence</text>
+  <rect x="782" y="446" width="258" height="300" rx="30" fill="#F8FBFF" stroke="#E3ECFD" stroke-width="3"/>
+  <text x="822" y="500" fill="#163C82" font-family="Arial, sans-serif" font-size="24" font-weight="700">Channel mix</text>
+  <rect x="822" y="538" width="54" height="110" rx="16" fill="#2F6FED"/>
+  <rect x="892" y="494" width="54" height="154" rx="16" fill="#7DAAF8"/>
+  <rect x="962" y="564" width="54" height="84" rx="16" fill="#C4D9FF"/>
+  <rect x="822" y="670" width="98" height="18" rx="9" fill="#D7E5FF"/>
+  <rect x="822" y="700" width="132" height="18" rx="9" fill="#E8F0FF"/>
+</svg>

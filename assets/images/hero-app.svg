@@ -1,1 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="820" viewBox="0 0 720 820" fill="none"><rect width="720" height="820" rx="48" fill="#EAF5EF"/><circle cx="130" cy="132" r="56" fill="#FF9159" fill-opacity=".2"/><circle cx="588" cy="690" r="72" fill="#1F8F63" fill-opacity=".18"/><rect x="196" y="62" width="328" height="696" rx="44" fill="#163027"/><rect x="218" y="98" width="284" height="620" rx="32" fill="white"/><rect x="244" y="136" width="232" height="128" rx="28" fill="#1F8F63"/><rect x="244" y="292" width="112" height="112" rx="24" fill="#ECF7DF"/><rect x="364" y="292" width="112" height="112" rx="24" fill="#FFF0E8"/><rect x="244" y="430" width="232" height="18" rx="9" fill="#D9E7DF"/><rect x="244" y="462" width="196" height="18" rx="9" fill="#D9E7DF"/><rect x="244" y="516" width="232" height="128" rx="28" fill="#F4F7F1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1050" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F8FF"/>
+      <stop offset="1" stop-color="#DCE9FF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="312" y1="184" x2="888" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E8DFF"/>
+      <stop offset="1" stop-color="#245FD4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="920" rx="48" fill="url(#bg)"/>
+  <circle cx="188" cy="160" r="76" fill="#E1EDFF"/>
+  <circle cx="1030" cy="742" r="96" fill="#E7F0FF"/>
+  <rect x="150" y="134" width="900" height="652" rx="40" fill="#fff" stroke="#D7E3FA" stroke-width="4"/>
+  <rect x="190" y="178" width="310" height="564" rx="34" fill="#0F2140"/>
+  <rect x="212" y="224" width="266" height="474" rx="24" fill="#F7FAFF"/>
+  <rect x="240" y="256" width="210" height="108" rx="24" fill="url(#card)"/>
+  <text x="268" y="296" fill="#fff" font-family="Arial, sans-serif" font-size="26" font-weight="700">Launch Health</text>
+  <text x="268" y="332" fill="#DCE9FF" font-family="Arial, sans-serif" font-size="18">2,418 joined this week</text>
+  <rect x="240" y="392" width="98" height="118" rx="22" fill="#EAF1FF"/>
+  <rect x="352" y="392" width="98" height="118" rx="22" fill="#EAF1FF"/>
+  <rect x="240" y="530" width="210" height="24" rx="12" fill="#D8E6FF"/>
+  <rect x="240" y="572" width="164" height="24" rx="12" fill="#C1D8FF"/>
+  <rect x="540" y="206" width="468" height="176" rx="30" fill="#F7FAFF" stroke="#DCE7FA" stroke-width="3"/>
+  <rect x="572" y="238" width="136" height="20" rx="10" fill="#C9DBFF"/>
+  <rect x="572" y="282" width="224" height="20" rx="10" fill="#E2ECFF"/>
+  <path d="M574 334c38-24 74-32 110-18 28 10 54 8 80-10 20-14 47-29 88-24 35 4 62 22 90 54" stroke="#2F6FED" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="574" cy="334" r="10" fill="#2F6FED"/>
+  <circle cx="744" cy="314" r="10" fill="#7DAAF8"/>
+  <circle cx="942" cy="336" r="10" fill="#163C82"/>
+  <rect x="540" y="408" width="220" height="144" rx="28" fill="#1F55C7"/>
+  <text x="570" y="458" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Beta Waitlist</text>
+  <text x="570" y="498" fill="#fff" font-family="Arial, sans-serif" font-size="50" font-weight="700">12,430</text>
+  <text x="570" y="532" fill="#D8E6FF" font-family="Arial, sans-serif" font-size="20">Qualified signups</text>
+  <rect x="788" y="408" width="220" height="144" rx="28" fill="#F7FAFF" stroke="#DCE7FA" stroke-width="3"/>
+  <text x="818" y="458" fill="#163C82" font-family="Arial, sans-serif" font-size="24" font-weight="700">Launch Tasks</text>
+  <rect x="818" y="486" width="160" height="16" rx="8" fill="#C9DBFF"/>
+  <rect x="818" y="516" width="126" height="16" rx="8" fill="#DDE9FF"/>
+  <rect x="818" y="546" width="174" height="16" rx="8" fill="#EAF1FF"/>
+  <rect x="540" y="584" width="468" height="126" rx="30" fill="#F7FAFF" stroke="#DCE7FA" stroke-width="3"/>
+  <text x="574" y="628" fill="#163C82" font-family="Arial, sans-serif" font-size="24" font-weight="700">Conversion by channel</text>
+  <rect x="574" y="652" width="54" height="28" rx="14" fill="#2F6FED"/>
+  <rect x="640" y="640" width="54" height="40" rx="14" fill="#6B9CFF"/>
+  <rect x="706" y="624" width="54" height="56" rx="14" fill="#A4C1FF"/>
+  <rect x="772" y="610" width="54" height="70" rx="14" fill="#1F55C7"/>
+  <rect x="838" y="636" width="54" height="44" rx="14" fill="#DCE9FF"/>
+  <rect x="904" y="618" width="54" height="62" rx="14" fill="#7DAAF8"/>
+</svg>

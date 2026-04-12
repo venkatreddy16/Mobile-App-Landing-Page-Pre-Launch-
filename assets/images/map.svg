@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" fill="none"><rect width="760" height="480" rx="36" fill="#EAF5EF"/><path d="M62 112L202 62L362 132L528 74L698 128V378L528 418L362 350L202 410L62 360V112Z" fill="#fff"/><circle cx="362" cy="232" r="42" fill="#FF9159"/><circle cx="362" cy="232" r="18" fill="white"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" rx="48" fill="#F4F8FF"/>
+  <rect x="104" y="108" width="992" height="684" rx="38" fill="#fff" stroke="#D8E4FA" stroke-width="4"/>
+  <path d="M180 248c110 20 164 86 274 86 126 0 176-108 296-108 112 0 170 78 268 96" stroke="#D8E6FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M184 504c114 28 170 120 300 120 112 0 180-90 290-90 110 0 156 58 240 74" stroke="#C4D9FF" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="626" cy="422" r="98" fill="#EAF1FF"/>
+  <path d="M626 356c-32 0-58 26-58 58 0 46 58 110 58 110s58-64 58-110c0-32-26-58-58-58Zm0 82c-14 0-24-10-24-24s10-24 24-24 24 10 24 24-10 24-24 24Z" fill="#2F6FED"/>
+  <rect x="188" y="648" width="824" height="88" rx="24" fill="#F8FBFF" stroke="#E2ECFB" stroke-width="3"/>
+  <text x="228" y="704" fill="#163C82" font-family="Arial, sans-serif" font-size="26" font-weight="700">San Francisco HQ • Remote product support across launch time zones</text>
+</svg>

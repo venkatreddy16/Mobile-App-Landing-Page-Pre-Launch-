@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" fill="none"><rect width="720" height="420" rx="36" fill="#EAF5EF"/><rect x="54" y="58" width="612" height="304" rx="28" fill="#fff"/><rect x="90" y="94" width="210" height="232" rx="24" fill="#1F8F63"/><rect x="334" y="206" width="284" height="86" rx="24" fill="#FFF0E8"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" fill="none">
+  <rect width="1200" height="760" rx="40" fill="#F4F8FF"/>
+  <rect x="88" y="84" width="1024" height="592" rx="34" fill="#fff" stroke="#D8E4FA" stroke-width="4"/>
+  <rect x="132" y="130" width="406" height="500" rx="28" fill="#1F55C7"/>
+  <text x="176" y="214" fill="#fff" font-family="Arial, sans-serif" font-size="30" font-weight="700">Launch Checklist</text>
+  <text x="176" y="268" fill="#D8E6FF" font-family="Arial, sans-serif" font-size="22">What high-converting landing pages include</text>
+  <rect x="176" y="336" width="310" height="18" rx="9" fill="#D8E6FF"/>
+  <rect x="176" y="378" width="258" height="18" rx="9" fill="#AFCBFF"/>
+  <rect x="176" y="420" width="294" height="18" rx="9" fill="#D8E6FF"/>
+  <rect x="594" y="130" width="474" height="500" rx="28" fill="#F8FBFF" stroke="#E2ECFB" stroke-width="3"/>
+  <rect x="638" y="182" width="386" height="120" rx="24" fill="#2F6FED"/>
+  <rect x="638" y="344" width="178" height="190" rx="24" fill="#EAF1FF"/>
+  <rect x="846" y="344" width="178" height="190" rx="24" fill="#F1F6FF"/>
+</svg>

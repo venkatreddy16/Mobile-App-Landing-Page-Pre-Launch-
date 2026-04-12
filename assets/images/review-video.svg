@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" fill="none"><rect width="720" height="420" rx="36" fill="#18283D"/><rect x="52" y="52" width="616" height="316" rx="28" fill="url(#a)"/><circle cx="360" cy="210" r="58" fill="#fff" fill-opacity=".9"/><path d="M382 210L344 234V186L382 210Z" fill="#FF9159"/><defs><linearGradient id="a" x1="52" y1="52" x2="668" y2="368" gradientUnits="userSpaceOnUse"><stop stop-color="#1F8F63"/><stop offset="1" stop-color="#263B57"/></linearGradient></defs></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" fill="none">
+  <rect width="900" height="1200" rx="48" fill="#F3F8FF"/>
+  <rect x="116" y="92" width="668" height="1016" rx="42" fill="#102242"/>
+  <rect x="154" y="154" width="592" height="922" rx="32" fill="#F8FBFF"/>
+  <text x="206" y="228" fill="#163C82" font-family="Arial, sans-serif" font-size="36" font-weight="700">Customer Proof</text>
+  <rect x="206" y="264" width="204" height="20" rx="10" fill="#D8E6FF"/>
+  <rect x="206" y="322" width="488" height="220" rx="30" fill="#1F55C7"/>
+  <circle cx="302" cy="432" r="58" fill="#D8E6FF"/>
+  <path d="M284 408c0-10 8-18 18-18 12 0 18 8 18 18s-6 18-18 18c-10 0-18-8-18-18Zm-24 58c14-20 34-30 60-30s46 10 60 30" stroke="#163C82" stroke-width="10" stroke-linecap="round"/>
+  <text x="390" y="404" fill="#fff" font-family="Arial, sans-serif" font-size="26" font-weight="700">Rated 4.9 / 5</text>
+  <text x="390" y="446" fill="#D8E6FF" font-family="Arial, sans-serif" font-size="20">A polished launch page boosted confidence before release.</text>
+  <rect x="206" y="582" width="238" height="174" rx="26" fill="#F8FBFF" stroke="#E2ECFB" stroke-width="3"/>
+  <text x="236" y="630" fill="#163C82" font-family="Arial, sans-serif" font-size="22" font-weight="700">Before</text>
+  <rect x="236" y="660" width="162" height="16" rx="8" fill="#D8E6FF"/>
+  <rect x="236" y="690" width="138" height="16" rx="8" fill="#E8F0FF"/>
+  <rect x="456" y="582" width="238" height="174" rx="26" fill="#2F6FED"/>
+  <text x="486" y="630" fill="#fff" font-family="Arial, sans-serif" font-size="22" font-weight="700">After</text>
+  <rect x="486" y="660" width="154" height="16" rx="8" fill="#D8E6FF"/>
+  <rect x="486" y="690" width="182" height="16" rx="8" fill="#BFD4FF"/>
+  <rect x="206" y="794" width="488" height="202" rx="30" fill="#F8FBFF" stroke="#E2ECFB" stroke-width="3"/>
+  <text x="238" y="846" fill="#163C82" font-family="Arial, sans-serif" font-size="24" font-weight="700">Results snapshot</text>
+  <rect x="238" y="882" width="82" height="56" rx="18" fill="#2F6FED"/>
+  <rect x="336" y="862" width="82" height="76" rx="18" fill="#7DAAF8"/>
+  <rect x="434" y="840" width="82" height="98" rx="18" fill="#1F55C7"/>
+  <rect x="532" y="874" width="82" height="64" rx="18" fill="#C4D9FF"/>
+</svg>

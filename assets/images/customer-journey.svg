@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" fill="none">
+  <rect width="900" height="1200" rx="48" fill="#F3F8FF"/>
+  <rect x="116" y="92" width="668" height="1016" rx="42" fill="#0F2140"/>
+  <rect x="154" y="154" width="592" height="922" rx="32" fill="#F8FBFF"/>
+  <text x="206" y="230" fill="#163C82" font-family="Arial, sans-serif" font-size="36" font-weight="700">Journey Builder</text>
+  <rect x="206" y="264" width="182" height="20" rx="10" fill="#D7E5FF"/>
+  <rect x="206" y="330" width="488" height="162" rx="30" fill="#2F6FED"/>
+  <text x="246" y="390" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Start with the first win</text>
+  <text x="246" y="438" fill="#D8E6FF" font-family="Arial, sans-serif" font-size="22">Explain value, then ask for signup</text>
+  <circle cx="278" cy="580" r="54" fill="#E9F1FF"/>
+  <circle cx="278" cy="580" r="20" fill="#2F6FED"/>
+  <rect x="360" y="542" width="302" height="24" rx="12" fill="#C3D9FF"/>
+  <rect x="360" y="582" width="244" height="24" rx="12" fill="#E2ECFF"/>
+  <path d="M278 634v88" stroke="#2F6FED" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="278" cy="758" r="54" fill="#E9F1FF"/>
+  <circle cx="278" cy="758" r="20" fill="#1F55C7"/>
+  <rect x="360" y="720" width="270" height="24" rx="12" fill="#C3D9FF"/>
+  <rect x="360" y="760" width="214" height="24" rx="12" fill="#E2ECFF"/>
+  <path d="M278 812v88" stroke="#2F6FED" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="278" cy="936" r="54" fill="#E9F1FF"/>
+  <circle cx="278" cy="936" r="20" fill="#7DAAF8"/>
+  <rect x="360" y="898" width="248" height="24" rx="12" fill="#C3D9FF"/>
+  <rect x="360" y="938" width="294" height="24" rx="12" fill="#E2ECFF"/>
+</svg>

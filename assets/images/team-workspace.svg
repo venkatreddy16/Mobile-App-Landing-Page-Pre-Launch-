@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" rx="48" fill="#F4F8FF"/>
+  <rect x="92" y="104" width="1016" height="692" rx="40" fill="#fff" stroke="#D8E4FA" stroke-width="4"/>
+  <rect x="136" y="150" width="460" height="326" rx="30" fill="#102242"/>
+  <rect x="176" y="196" width="380" height="226" rx="22" fill="#F8FBFF"/>
+  <rect x="212" y="236" width="168" height="22" rx="11" fill="#D8E6FF"/>
+  <rect x="212" y="278" width="298" height="126" rx="24" fill="#2F6FED"/>
+  <rect x="640" y="150" width="424" height="326" rx="30" fill="#F8FBFF" stroke="#E2ECFB" stroke-width="3"/>
+  <text x="680" y="210" fill="#163C82" font-family="Arial, sans-serif" font-size="28" font-weight="700">Team sync</text>
+  <rect x="680" y="252" width="198" height="18" rx="9" fill="#D8E6FF"/>
+  <rect x="680" y="292" width="160" height="18" rx="9" fill="#E8F0FF"/>
+  <circle cx="254" cy="634" r="88" fill="#D8E6FF"/>
+  <circle cx="484" cy="634" r="88" fill="#C4D9FF"/>
+  <circle cx="714" cy="634" r="88" fill="#A4C1FF"/>
+  <path d="M206 732c18-54 66-86 100-86 34 0 82 30 100 86" fill="#1F55C7"/>
+  <path d="M436 732c18-54 66-86 100-86 34 0 82 30 100 86" fill="#2F6FED"/>
+  <path d="M666 732c18-54 66-86 100-86 34 0 82 30 100 86" fill="#163C82"/>
+</svg>
